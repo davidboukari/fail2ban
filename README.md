@@ -1,5 +1,4 @@
 # fail2ban
-fail2ban
 
 
 fail2ban-client
