@@ -18,6 +18,8 @@ To confirm I set findtime = 32000000 and now I am seeing the expected Found and 
 Therefore I think the problem is with the detection of timestamps in the logfile - possibly/probably with time log units.
 ```
 
+## Installation
+
 ```bash
 yum install epel-release
 yum install fail2ban fail2ban-systemd
