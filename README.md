@@ -41,15 +41,20 @@ maxretry = 5
 ```
 
 
-fail2ban-client
+## fail2ban-client
 
-Status
+### Status
 ```bash
 fail2ban-client status
 fail2ban-client status sshd
 ```
 
-Get a config field
+### Get a config field
 ```
 fail2ban-client get sshd bantime
+```
+
+### unban client
+```bash
+fail2ban-client set  owncloud unbanip 123.1.43.5
 ```
