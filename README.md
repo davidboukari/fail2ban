@@ -56,5 +56,6 @@ fail2ban-client get sshd bantime
 
 ### unban client
 ```bash
-fail2ban-client set  owncloud unbanip 123.1.43.5
+#fail2ban-client set  <jail> unbanip 123.1.43.5
+fail2ban-client set  sshd unbanip 123.1.43.5
 ```
