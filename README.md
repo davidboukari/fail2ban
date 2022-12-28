@@ -40,6 +40,16 @@ findtime = 600
 maxretry = 5
 ```
 
+* ubuntu fail2ban
+```
+apt-get install fail2ban
+cat<<EOF>>/etc/fail2ban/jail.d/defaults-debian.conf
+[sshd]
+enabled = true
+bantime = 8h
+
+```
+
 
 ## fail2ban-client
 
